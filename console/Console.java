@@ -11,7 +11,7 @@ public class Console {
 
 			TV tv = new TV("TV", 2, false);
 
-			System.out.print("Enter input: ");
+			System.out.print("Enter input (X to change status, E to exit program): ");
 			String input = scan.next();
 			if (input.equalsIgnoreCase("X")) {
 				System.out.print("TV mute status changed to ");
